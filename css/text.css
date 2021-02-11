@@ -1,0 +1,115 @@
+body{
+    background-color: thistle;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.4em;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    height: auto;
+    overflow: hidden;
+}
+a:hover{
+    background-color:blue;
+    color: cyan;
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+    color: violet;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline;
+    float: right;
+    padding: 10px 20px;
+}
+#main-header{
+    background-color: crimson;
+    color: black;
+}
+#navbar{
+    background-color: teal;
+    color: white;
+    
+}
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+#navbar li{
+    display: inline;
+}
+#navbar a{
+    
+    color: tomato;
+    text-decoration: none;
+    font-size: 16px;
+    padding-right: 15px;
+}
+#showcase{
+    background-image: url(../images/go.jpeg);
+    background-position: center right;
+    min-width: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+#showcase h1{
+    color: #fff;
+    line-height: 1.6em;
+    font-size: 30px;
+    padding-top: 30px;
+}
+#main{
+    width: 70%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 30px;
+    
+}
+#main h1{
+    color: violet;
+}
+#sidebar{
+    width: 30%;
+    float: right;
+    box-sizing: border-box;
+    padding: 10px;
+    background: black;
+    color: white;
+    
+}
+#main-footer{
+    background-color: crimson;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    height: auto;
+}
+#main-footer #navbar ul{
+    float: right;
+    margin-top: 45px;
+
+}
+#main-footer p{
+    font-size: 20px;
+}
+.para{
+    padding-top: 35px;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+@media(max-width:600px){
+    #main{
+        float: none;
+        width: 100%;
+    }
+    #sidebar{
+        float: none;
+        width: 100%;
+    }
+}
